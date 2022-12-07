@@ -1,0 +1,64 @@
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -------------------HEADER------------- */
+#header {
+    background-color: lightgray;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#header li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+}
+
+#header_items:hover {
+    background-color: lightblue;
+}
+
+/* 
+-------------LIST MENU----------- */
+
+#menu_items {
+    list-style-type: circle;
+}
+
+
+
+#menu_items a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+
+
+/* img section */
+
+
+#menu_img img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#menu_img p {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
